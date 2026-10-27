@@ -27,7 +27,7 @@ replicaCount
 ## Install
 
 ```bash
-helm plugin install https://github.com/fadedreams/helm-blame
+helm plugin install https://github.com/fadedreams/helm-blame --verify=false
 ```
 
 The install hook downloads a prebuilt binary for your OS and architecture (linux/darwin, amd64/arm64) from the GitHub Releases page. It needs `curl` or `wget`.
