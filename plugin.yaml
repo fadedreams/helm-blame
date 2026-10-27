@@ -1,5 +1,5 @@
 name: "blame"
-version: "0.2.0"
+version: "0.1.0"
 usage: "helm blame RELEASE [KEY] [flags]"
 description: "Show the per-key history of a release's values across revisions (like git blame, for Helm values)"
 command: "$HELM_PLUGIN_DIR/bin/helm-blame"
