@@ -1,0 +1,80 @@
+bin/
+dist/
+
+# Go-specific ignores
+/bin/
+/pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+
+# Helm-specific ignores
+*.tgz
+charts/
+Chart.lock
+tmpcharts/
+tmp/
+
+# Build and packaging artifacts
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Files specified by user
+all.txt
+all_dir.txt
+all_files.txt
+all_exc.txt
+all_ext.txt
+all_ext_X.txt
+tree.txt
+
+# Common ignores for build systems and editors
+*.o
+*.log
+*.log.*
+*.bak
+*.swp
+*.tmp
+*~
+*.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+test-results/
+*.cover
+cover.out
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+!.env.example
+
+# Miscellaneous
+temp/
+
