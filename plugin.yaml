@@ -3,7 +3,7 @@ version: "0.2.0"
 usage: "helm blame RELEASE [KEY] [flags]"
 description: "Show the per-key history of a release's values across revisions (like git blame, for Helm values)"
 command: "$HELM_PLUGIN_DIR/bin/helm-blame"
-ignoreFlags: true
+ignoreFlags: false
 hooks:
   install: "$HELM_PLUGIN_DIR/scripts/install.sh"
   update: "$HELM_PLUGIN_DIR/scripts/install.sh"
